@@ -1,0 +1,3 @@
+adjimi@pce129:~$ cd WEB
+adjimi@pce129:~/WEB$ find CodeIgniter -type d -exec chmod g+x {} +
+adjimi@pce129:~/WEB$ chmod -R g+r .

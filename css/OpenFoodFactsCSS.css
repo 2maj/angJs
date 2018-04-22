@@ -1,0 +1,138 @@
+/*      blocs principales       */
+
+header {
+    background-color: #8E95FF;
+    height: 10em;
+    
+    display: flex;
+    position: relative;
+    
+    align-items: center;
+}
+
+body {
+    background-color: #F2F2F2;
+    
+}
+
+footer {
+    background-image: url(grey_line.png);
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+    height: 5em;
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding-top: 20px;
+    
+}
+
+
+/*      blocs secondaires       */
+
+#contient_titre{
+    margin: 0;
+    
+}
+
+#titre{
+    background-image: url(grey_line.png);
+    background-position: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+    margin: 0;
+    
+}
+
+section{
+    display: flex;
+    position: absolute;
+    left: 50px;
+    height: auto;
+    
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+article{
+    
+    
+}
+
+nav{
+    
+    
+}
+
+aside{
+    
+    
+}
+
+
+/*      blocs terciaires       */
+
+p{
+    
+    
+}
+
+h{
+    
+    
+}
+
+strong{
+    
+    
+}
+
+
+/*      blocs OpenFoodFacts     */
+#Open {
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: 4em;
+}
+
+
+/*      blocs barre section     */
+#barreGauche{
+    background-image: url(grey_line_ver.png);
+    background-position: center;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 20px;
+    
+    padding: 0;
+    margin: 15px 15px 15px 0;
+    
+}
+
+#barreDroite{
+    background-image: url(grey_line_ver.png);
+    background-position: center;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 20px;
+    
+    padding: 0;
+    margin: 15px 0 15px 15px;
+}
+
+#contient_section{
+    padding: 0;
+    margin: 0;
+    
+}
